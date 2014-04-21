@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="css/codiqa.ext.min.css" rel="stylesheet">
+  <link href="css/jquery.mobile.theme-1.3.1.min.css" rel="stylesheet">
+  <link href="css/jquery-mobile.css" rel="stylesheet">
+  <link href="css/jquery.mobile.structure-1.3.1.min.css" rel="stylesheet">
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script src="js/codiqa.ext.min.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Home" data-theme="b" id="Home">
+      <div data-theme="a" data-role="header">
+          <h1>
+              Logo
+          </h1>
+          <div data-role="navbar" data-iconpos="top" class="Nav">
+              <ul>
+                  <li>
+                      <a href="#Home" data-transition="fade" data-theme="b" data-icon="home">
+                          Home
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page4" data-transition="fade" data-theme="a" data-icon="search">
+                          About
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page5" data-transition="fade" data-theme="" data-icon="gear">
+                          Services
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page6" data-transition="fade" data-theme="a" data-icon="info">
+                          Contact
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div data-role="content" style="padding: 20px">
+          <hr style="height:5px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+          <div style=" text-align:center" data-controltype="image">
+              <img style="width: 100%; height: 90%" src="img/computer-repair-services-glasgow-computer-support-in-glasgow.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  Lorem ipsum dolor sit amet, pri nemore elaboraret ad, deleniti lucilius
+                  adipiscing quo at, usu oblique insolens ei. Ex tractatos pertinacia sea,
+                  cu quodsi eruditi volutpat vix.
+                  <br>
+              </p>
+          </div>
+          <a data-role="button" data-transition="flip" data-theme="e" href="tel:07592899994"
+          data-icon="alert" data-iconpos="left">
+              EMERGENCY!
+          </a>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <span class="ui-title">
+          </span>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Services" data-theme="b" id="page5">
+      <div data-theme="a" data-role="header">
+          <h1>
+              Logo
+          </h1>
+          <div data-role="navbar" data-iconpos="top" class="Nav">
+              <ul>
+                  <li>
+                      <a href="#Home" data-transition="fade" data-theme="a" data-icon="home">
+                          Home
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page4" data-transition="fade" data-theme="a" data-icon="search">
+                          About
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page5" data-transition="fade" data-theme="b" data-icon="gear">
+                          Services
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page6" data-transition="fade" data-theme="a" data-icon="info">
+                          Contact
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div data-role="content">
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Hardware Services
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Replace HDD / RAM
+                      <span class="ui-li-count">
+                          10$
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Replace broken screen
+                      <span class="ui-li-count">
+                          40$
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Repace PS3 Laser
+                      <span class="ui-li-count">
+                          30$
+                      </span>
+                  </a>
+              </li>
+          </ul>
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Software Services
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Windows re-install
+                      <span class="ui-li-count">
+                          30$
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Virus Removal
+                      <span class="ui-li-count">
+                          10$
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Data Recovery
+                      <span class="ui-li-count">
+                          30$
+                      </span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <span class="ui-title">
+          </span>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="About" data-theme="b" id="page4">
+      <div data-theme="a" data-role="header">
+          <h1>
+              Logo
+          </h1>
+          <div data-role="navbar" data-iconpos="top" class="Nav">
+              <ul>
+                  <li>
+                      <a href="#Home" data-transition="fade" data-theme="a" data-icon="home">
+                          Home
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page4" data-transition="fade" data-theme="b" data-icon="search">
+                          About
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page5" data-transition="fade" data-theme="" data-icon="gear">
+                          Services
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page6" data-transition="fade" data-theme="a" data-icon="info">
+                          Contact
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div data-role="content">
+          <div id="googlemapsjs2" class="google-map" style="width: 288px; height: 200px; margin-left: auto; margin-right: auto">
+          </div>
+          <script type="text/javascript">
+                  window.CodiqaControls && window.CodiqaControls.register('googlemaps', 'googlemapsjs2', {
+              ready: function(control) {
+  
+                  control.options = {
+                      zoom: 12,
+                      mapTypeId: google.maps.MapTypeId.ROADMAP
+                  };
+  
+                  control.el = document.getElementById(control._id);
+                  control.map = new google.maps.Map(control.el, control.options);
+  
+                  var geocoder = new google.maps.Geocoder();
+                  geocoder.geocode({
+                      'address': 'Worcester, UK'
+                  }, function(results, status) {
+                      if (status == google.maps.GeocoderStatus.OK) {
+  
+                          var marker = new google.maps.Marker({
+                              map: control.map,
+                              position: results[0].geometry.location
+                          });
+                          control.center = results[0].geometry.location;
+                          control.map.setCenter(control.center);
+                      }
+                  });
+  
+              }
+          });
+          </script>
+          <div data-controltype="textblock">
+              <p>
+                  Lorem ipsum dolor sit amet, pri nemore elaboraret ad, deleniti lucilius
+                  adipiscing quo at, usu oblique insolens ei. Ex tractatos pertinacia sea,
+                  cu quodsi eruditi volutpat vix. Eu mea tractatos patrioque. Ex appareat
+                  theophrastus mel, pri sint decore copiosae te.
+                  <br>
+                  <br>
+              </p>
+          </div>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <span class="ui-title">
+          </span>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Contact" data-theme="b" id="page6">
+      <div data-theme="a" data-role="header">
+          <h1>
+              Logo
+          </h1>
+          <div data-role="navbar" data-iconpos="top" class="Nav">
+              <ul>
+                  <li>
+                      <a href="#Home" data-transition="fade" data-theme="a" data-icon="home">
+                          Home
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page4" data-transition="fade" data-theme="a" data-icon="search">
+                          About
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page5" data-transition="fade" data-theme="" data-icon="gear">
+                          Services
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page6" data-transition="fade" data-theme="b" data-icon="info">
+                          Contact
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div data-role="content">
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea1">
+                  Name
+              </label>
+              <textarea name="" id="textarea1" placeholder=""></textarea>
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea2">
+                  E-mail
+              </label>
+              <textarea name="" id="textarea2" placeholder=""></textarea>
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea3">
+                  Message
+              </label>
+              <textarea name="" id="textarea3" placeholder=""></textarea>
+          </div>
+          <input type="submit" data-theme="b" data-icon="check" data-iconpos="left"
+          value="Submit">
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <span class="ui-title">
+          </span>
+      </div>
+  </div>
+</body>
+</html>
